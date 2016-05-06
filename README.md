@@ -24,11 +24,11 @@ defp deps do
 end
 ```
 
-Add `:exsyslog` to your list of `included_applications`:
+Add `:exsyslog` and `:syslog` to your list of `included_applications`:
 
 ```elixir
 def application do
-  [included_applications: [:exsyslog]]
+  [included_applications: [:exsyslog, :syslog]]
 end
 ```
 
