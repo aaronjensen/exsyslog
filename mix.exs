@@ -16,7 +16,8 @@ defmodule Exsyslog.Mixfile do
   #
   # Type `mix help compile.app` for more information
   def application do
-    [applications: [:logger, :syslog, :poison]]
+    [applications: [:poison],
+     included_applications: [:syslog]]
   end
 
   defp description do
