@@ -3,7 +3,7 @@ defmodule Exsyslog.Mixfile do
 
   def project do
     [app: :exsyslog,
-     version: "1.0.1",
+     version: "1.0.1+1",
      elixir: "~> 1.0",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
